@@ -29,12 +29,6 @@
 
   <!--Google Webfonts-->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.3.0/kakao.min.js"
-    integrity="sha384-70k0rrouSYPWJt7q9rSTKpiTfX6USlMYjZUtr1Du+9o4cGvhPAWxngdtVZDdErlh"
-    crossorigin="anonymous"></script>
-  <script>
-    Kakao.init('23e5e0ba09eed115e76fb3f4cbc3837f'); // 사용하려는 앱의 JavaScript 키 입력
-  </script>
 </head>
 
 <body>
@@ -534,14 +528,13 @@
       <!--End of Gallery-->
 
       <!--Gallery-->
-      <aside id="contact" class="row text-center scrollto clearfix" data-featherlight-gallery
-        data-featherlight-filter="a">
+      <aside id="contact" class="row text-center scrollto clearfix">
 
         <div class="section-heading">
           <h3>Contact</h3>
           <h2 class="section-title">VCL Partners</h2>
         </div>
-        <a id="chat-channel-button" href="javascript:chatChannel()">
+        <a href="http://pf.kakao.com/_neWxdG/chat" target="_blank">
           <img src="images/consult_small_yellow_pc.png" alt="카카오톡 채널 채팅하기 버튼" style="max-width: 200px;" />
         </a>
 
@@ -682,14 +675,6 @@
   <script src="js/images-loaded.min.js"></script>
   <script src="js/lightbox.min.js"></script>
   <script src="js/site.js"></script>
-  <script>
-    function chatChannel() {
-      Kakao.Channel.chat({
-        channelPublicId: '_neWxdG',
-      });
-    }
-  </script>
-
 
 </body>
 
